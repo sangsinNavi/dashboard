@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#main{
+    height: calc(100% - 50px);
+}
+#footer {
+    padding-top: 7px;
+    padding-left: 18px;
+    top: 20%;
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    border-radius: 0px 0px 2px 2px;
+}
+#list{
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+#picture {
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+#grid {
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    margin: 0 auto;
+    line-height: 100%;
+    width: 50%;
+    text-align: center;
+    display: 'none';
+}
